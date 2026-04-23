@@ -16,14 +16,14 @@ const slides = [
     description: "Unlock your full potential with our data-driven strategies and professional guidance. We help you stay ahead of the competition.",
     image: "/banner/slide2.png",
     buttonText: "Explore Services",
-    buttonLink: "/pages/services",
+    buttonLink: "/services",
   },
   {
     title: "Expertise You Can Count On",
     description: "With years of experience across various industries, our consultants deliver measurable results and sustainable solutions.",
     image: "/banner/slide3.png",
     buttonText: "Learn More About Us",
-    buttonLink: "/pages/about",
+    buttonLink: "/about",
   },
 ];
 
@@ -106,7 +106,7 @@ export default function Banner() {
                         {slide.buttonText}
                       </button>
                     </Link>
-                    <Link href="/pages/services">
+                    <Link href="/services">
                       <button className="bg-transparent border-2 border-white text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-black transition-all transform hover:scale-105 shadow-xl">
                         Our Services
                       </button>
