@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Contact Us",
-  description: "Get in touch with JNB Consulting for a free consultation.",
+  description: "Get in touch with Startup Sutra for a free consultation.",
 };
 
 export default function ContactPage() {

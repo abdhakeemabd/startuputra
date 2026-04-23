@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    default: "JNB Consulting | ISO & Business Consulting",
-    template: "%s | JNB Consulting",
+    default: "Startup Sutra | ISO & Business Consulting",
+    template: "%s | Startup Sutra",
   },
   description:
     "Professional ISO certification, Lean consulting, and business consulting services in Kerala.",
