@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "About", href: "/pages/about" },
-  { name: "Services", href: "/pages/services" },
-  { name: "Contact", href: "/pages/contact" },
+  { name: "About", href: "/about" },
+  { name: "Services", href: "/services" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
