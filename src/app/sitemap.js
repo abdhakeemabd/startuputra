@@ -1,7 +1,7 @@
 import { servicesData } from '../data/services';
 
 export default function sitemap() {
-  const baseUrl = 'https://startuputra.com'; // Change to your actual production URL
+  const baseUrl = 'https://www.startupsutra.co.in'; // Your actual production URL
 
   // Base static routes
   const routes = [
