@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://startuputra.com/sitemap.xml
