@@ -22,23 +22,20 @@ export default function ContactUs() {
             From ISO certification to strategic consulting, we help businesses
             scale with clarity, compliance, and confidence.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/contact">
               <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-medium hover:scale-105 transition-all duration-300 shadow-md">
                 Get Free Consultation
               </button>
             </Link>
-            <a href="tel:+918606065001" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-blue-100 transition">
-                <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"  />
-                </svg>
-              </div>
-              <div className="text-left">
-                <p className="text-xs text-gray-500">Call us directly</p>
-                <p className="text-gray-900 font-semibold">+91 86060 65001</p>
-              </div>
-            </a>
+            <div className="flex items-center gap-3">
+              <a href="tel:+918606065001" className="flex items-center gap-2 px-5 py-3 rounded-full bg-blue-50 border border-blue-200 text-blue-700 font-semibold hover:bg-blue-100 transition shadow-sm text-sm">
+                📞 Call +91 86060 65001
+              </a>
+              <a href="https://wa.me/918606065001" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-5 py-3 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 font-semibold hover:bg-emerald-100 transition shadow-sm text-sm">
+                💬 WhatsApp
+              </a>
+            </div>
           </div>
         </div>
       </div>
