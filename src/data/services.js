@@ -5,10 +5,95 @@ import {
   Share2, 
   Award, 
   TrendingUp, 
-  Briefcase
+  Briefcase,
+  Receipt,
+  Store,
+  Calculator,
+  FileCheck,
+  Wallet
 } from "lucide-react";
 
 export const servicesData = [
+  {
+    title: "GST Services",
+    slug: "gst-services",
+    description: "Complete GST compliance including registration, return filing, tax payment, and registration cancellation.",
+    fullDescription: "Navigating Goods and Services Tax (GST) compliance is vital for modern businesses. Startup Sutra provides end-to-end GST solutions tailored to startups, SMEs, and corporate entities. Our tax experts assist you with new GST Registration, timely return filing (GSTR-1, GSTR-3B, GSTR-9), hassle-free tax payments, and official GST registration cancellation upon business closure or restructuring.",
+    features: [
+      "GST Registration (New & Modifications)",
+      "GST Return Filing (GSTR-1, GSTR-3B, GSTR-9)",
+      "GST Tax Payment & Challan Generation",
+      "GST Cancellation & Surrender Support"
+    ],
+    icon: Receipt,
+    color: "from-blue-600 to-indigo-600",
+    bgLight: "bg-blue-50",
+    shadow: "shadow-blue-500/20"
+  },
+  {
+    title: "Shop & Establishment License",
+    slug: "shop-and-establishment",
+    description: "Hassle-free Shop & Establishment registration and official license cancellation with government labor departments.",
+    fullDescription: "Registration under the State Shop and Establishment Act is mandatory for all commercial establishments, shops, offices, and service centers. We handle your complete registration process, document verification, and government issuance of the certificate. Should you close or restructure your operations, we also handle official Shop and Establishment Cancellation with local authorities.",
+    features: [
+      "Shop & Establishment Registration",
+      "License Renewal & Certificate Issuance",
+      "Shop & Establishment Cancellation",
+      "Labor Department Compliance"
+    ],
+    icon: Store,
+    color: "from-amber-500 to-orange-500",
+    bgLight: "bg-amber-50",
+    shadow: "shadow-amber-500/20"
+  },
+  {
+    title: "Professional Tax Services",
+    slug: "professional-tax",
+    description: "End-to-end Professional Tax registration, monthly/annual filing, payment assistance, and license cancellation.",
+    fullDescription: "Professional Tax (PT) is a state-level tax levied on trades, professions, and employments. Startup Sutra ensures end-to-end PT compliance for business owners and employees. We handle state-wise Professional Tax Registration (PTEC & PTRC), accurate PT return filing, online PT payments, and formal PT Registration Cancellation when winding up business entities.",
+    features: [
+      "Professional Tax Registration (PTEC & PTRC)",
+      "Professional Tax Return Filing",
+      "Online PT Payment Management",
+      "PT Registration Cancellation"
+    ],
+    icon: Calculator,
+    color: "from-emerald-500 to-teal-600",
+    bgLight: "bg-emerald-50",
+    shadow: "shadow-emerald-500/20"
+  },
+  {
+    title: "Trade Licence Services",
+    slug: "trade-licence",
+    description: "Obtain municipal trade licenses for legal business operations and manage official license surrender & cancellation.",
+    fullDescription: "A Trade Licence issued by your local municipal authority permits commercial activities in a specific area. We simplify the entire Trade Licence Registration procedure by handling document submission and municipal verification. If your commercial unit closes down, we also manage Trade Licence Cancellation and official NOC processing.",
+    features: [
+      "Municipal Trade Licence Registration",
+      "Annual Licence Renewal",
+      "Trade Licence Cancellation & Surrender",
+      "NOC & Municipal Compliance Assistance"
+    ],
+    icon: FileCheck,
+    color: "from-purple-600 to-violet-500",
+    bgLight: "bg-purple-50",
+    shadow: "shadow-purple-500/20"
+  },
+  {
+    title: "Vendor Payment Management",
+    slug: "vendor-payment-management",
+    description: "Streamline accounts payable, vendor payouts, invoice verification, ledger reconciliation, and tax withholding.",
+    fullDescription: "Ensure smooth financial operations and strong vendor relationships with our Vendor Payment Management services. We manage invoice verification, payment scheduling, ledger reconciliation, and mandatory tax deduction compliance (TDS & GST withholding). Streamline accounts payable while maintaining full transparency and working capital efficiency.",
+    features: [
+      "Automated Invoice Verification & Processing",
+      "Vendor Payment Scheduling & Processing",
+      "TDS & GST-TDS Withholding Compliance",
+      "Vendor Onboarding & Ledger Reconciliation"
+    ],
+    icon: Wallet,
+    color: "from-cyan-500 to-blue-600",
+    bgLight: "bg-cyan-50",
+    shadow: "shadow-cyan-500/20"
+  },
   {
     title: "ISO Certification",
     slug: "iso-certification",
@@ -87,3 +172,4 @@ export const servicesData = [
     shadow: "shadow-orange-500/20"
   }
 ];
+

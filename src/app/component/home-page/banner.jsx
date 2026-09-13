@@ -20,15 +20,17 @@ export default function Banner() {
           Your trusted partner in innovation, growth, and success. We provide expert consulting and development services tailored to your unique needs.
         </p>
         <div className="flex flex-wrap justify-center gap-6 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-          <Link href="/contact">
-            <button className="bg-white text-black px-10 py-4 rounded-full font-bold hover:bg-gray-200 transition-all transform hover:scale-105 shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)]">
-              Get Free Consultation
-            </button>
+          <Link 
+            href="/contact"
+            className="inline-block bg-white text-black px-10 py-4 rounded-full font-bold hover:bg-gray-200 transition-all transform hover:scale-105 shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)]"
+          >
+            Get Free Consultation
           </Link>
-          <Link href="/services">
-            <button className="bg-transparent border-2 border-white/80 text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-black transition-all transform hover:scale-105 shadow-xl backdrop-blur-sm">
-              Explore Services
-            </button>
+          <Link 
+            href="/services"
+            className="inline-block bg-transparent border-2 border-white/80 text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-black transition-all transform hover:scale-105 shadow-xl backdrop-blur-sm"
+          >
+            Explore Services
           </Link>
         </div>
       </div>

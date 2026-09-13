@@ -99,10 +99,11 @@ export default async function ServiceDetail({ params }) {
               <p className="text-slate-600 mb-8">
                 Schedule a free consultation with our experts to discuss your specific requirements.
               </p>
-              <Link href="/contact">
-                <button className={`w-full py-4 rounded-xl font-bold text-white bg-gradient-to-r ${service.color} hover:opacity-90 transition-opacity shadow-lg active:scale-95 transform`}>
-                  Get in Touch
-                </button>
+              <Link 
+                href="/contact"
+                className={`block w-full py-4 rounded-xl font-bold text-center text-white bg-gradient-to-r ${service.color} hover:opacity-90 transition-opacity shadow-lg active:scale-95 transform`}
+              >
+                Get in Touch
               </Link>
             </div>
           </div>

@@ -77,10 +77,11 @@ export default function AboutPage() {
             <p className="text-lg text-slate-600 leading-relaxed mb-8">
               Today, our diverse team of experts spans across IT, quality management, and business strategy, allowing us to provide end-to-end solutions. Whether you're a startup looking to establish a digital footprint or an enterprise aiming for operational excellence, we are here to guide you every step of the way.
             </p>
-            <Link href="/services">
-              <button className="bg-slate-900 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-500 transition-all shadow-lg hover:shadow-orange-500/25">
-                Explore Our Services
-              </button>
+            <Link 
+              href="/services"
+              className="inline-block bg-slate-900 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-500 transition-all shadow-lg hover:shadow-orange-500/25"
+            >
+              Explore Our Services
             </Link>
           </div>
           <div className="relative">
@@ -127,10 +128,11 @@ export default function AboutPage() {
           <p className="text-slate-300 text-lg mb-8 max-w-2xl mx-auto relative z-10">
             Join hundreds of satisfied clients who have transformed their operations and digital presence with our expert guidance.
           </p>
-          <Link href="/contact">
-            <button className="relative z-10 bg-orange-500 text-white px-10 py-4 rounded-full font-bold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-[0_0_40px_-10px_rgba(249,115,22,0.5)]">
-              Contact Us Today
-            </button>
+          <Link 
+            href="/contact"
+            className="relative z-10 inline-block bg-orange-500 text-white px-10 py-4 rounded-full font-bold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-[0_0_40px_-10px_rgba(249,115,22,0.5)]"
+          >
+            Contact Us Today
           </Link>
         </div>
       </div>

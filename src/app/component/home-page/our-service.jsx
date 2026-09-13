@@ -39,11 +39,9 @@ export default function OurServices() {
                   {service.description}
                 </p>
                 
-                <Link href={`/services/${service.slug}`} className="mt-auto">
-                  <button className="text-slate-900 font-bold hover:text-orange-500 transition-all flex items-center gap-2 group/btn">
-                    Learn More
-                    <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-                  </button>
+                <Link href={`/services/${service.slug}`} className="mt-auto text-slate-900 font-bold hover:text-orange-500 transition-all flex items-center gap-2 group/btn">
+                  Learn More
+                  <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                 </Link>
               </div>
             );
@@ -51,10 +49,8 @@ export default function OurServices() {
         </div>
         
         <div className="mt-16 text-center">
-          <Link href="/services">
-            <button className="bg-orange-500 text-white px-10 py-4 rounded-full font-bold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-xl shadow-orange-500/20">
-              View All Services
-            </button>
+          <Link href="/services" className="inline-block bg-orange-500 text-white px-10 py-4 rounded-full font-bold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-xl shadow-orange-500/20">
+            View All Services
           </Link>
         </div>
       </div>

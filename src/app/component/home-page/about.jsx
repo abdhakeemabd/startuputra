@@ -80,10 +80,11 @@ export default function About() {
             </div>
             
             <div>
-              <Link href="/about">
-                <button className="bg-orange-500 text-white px-10 py-4 rounded-full font-bold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg shadow-orange-500/25 flex items-center gap-3">
-                  Read Our Full Story
-                </button>
+              <Link 
+                href="/about"
+                className="inline-flex items-center gap-3 bg-orange-500 text-white px-10 py-4 rounded-full font-bold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg shadow-orange-500/25"
+              >
+                Read Our Full Story
               </Link>
             </div>
           </div>
